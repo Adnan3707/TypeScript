@@ -9,7 +9,7 @@ type Admin  ={
     id:number
 }
 
-let adnan:User | Admin = {username:"adnna",id:40}
+let adnan: User | Admin = { username: "adnna", id: 40 }
 
 function getDbId(id:number | string){
     if(typeof id == 'string'){
